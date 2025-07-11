@@ -1,7 +1,8 @@
 # 🚀 Chrome Manifest V2 Hatası Çözümü - Eski Eklentileri Çalıştırma
-<img width="527" height="221" alt="image" src="https://github.com/user-attachments/assets/2f252959-6325-41a5-ab25-9271a2bae597" />
 
 Chrome'da Manifest V2 eklentilerinin çalışmaması sorununu çözen araçlar. Chrome extension error fix, Manifest V2 deprecated çözümü.
+
+<img width="527" height="221" alt="Chrome Manifest V2 Error Fix" src="https://github.com/user-attachments/assets/2f252959-6325-41a5-ab25-9271a2bae597" />
 
 ## ❓ Sorun Nedir?
 
@@ -14,25 +15,25 @@ Chrome extension manifest v2 fix için en basit yöntem:
 ### 📝 Adım Adım:
 1. 🔍 Chrome adres çubuğuna `chrome://flags/` yazın
 2. 🔎 `allow-legacy-mv2-extensions` aratın
-3. ✅ **Allow legacy extension manifest versions** seçeneğini **Enabled** yapın
+3. ✅ **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
 4. 🔄 **Relaunch (Yeninden Başlat)** butonuna tıklayın
 
 > 💡 Bu yöntem Chrome policy fix olarak da bilinir.
 
-<img width="892" height="369" alt="image" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
-
+### 📸 Chrome Flags Ekran Görüntüsü:
+<img width="892" height="369" alt="Chrome Flags - Allow Legacy MV2 Extensions" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
 
 ## 🛠️ Çözüm 2: Otomatik Araçlar
 
 Chrome registry fix ve Chrome Mac policy ayarları için otomatik araçlar:
 
 ### 🪟 Windows
-1. 📥 `chrome_windows.bat` dosyasını indirin
+1. 📥 [`chrome_windows.bat`](https://github.com/seyitahmettanriver/chrome-manifest-v2-fix/blob/main/chrome_windows.bat) dosyasını indirin
 2. 🖱️ Sağ tık → **Yönetici olarak çalıştır**
 3. 🔄 Chrome'u yeniden başlatın
 
 ### 🍎 Mac
-1. 📥 `chrome_mac.sh` dosyasını indirin
+1. 📥 [`chrome_mac.sh`](https://github.com/seyitahmettanriver/chrome-manifest-v2-fix/blob/main/chrome_mac.sh) dosyasını indirin
 2. 💻 Terminal'de çalıştırın:
    ```bash
    chmod +x chrome_mac.sh
