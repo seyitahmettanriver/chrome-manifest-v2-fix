@@ -98,7 +98,7 @@ Mac: /Library/Preferences/com.google.Chrome ExtensionManifestV2Availability = 2
 Sorun yaşarsanız:
 - **WhatsApp**: +1 249 4772408
 - **E-posta**: support@orderquery.net
-- **GitHub Issues**: [Repository linki]
+- **GitHub Issues**: https://github.com/seyitahmettanriver/chrome-manifest-v2-fix/issues
 
 ## ⚠️ Uyarı
 
@@ -110,6 +110,14 @@ Sorun yaşarsanız:
 ## 📄 Lisans
 
 Bu proje açık kaynak kodludur. İstediğiniz gibi kullanabilirsiniz.
+
+---
+
+## 👨‍💻 Geliştirici
+
+**Seyit Ahmet TANRIVER**
+
+Bu proje, Chrome Manifest V2 eklenti sorunlarını çözmek için geliştirilmiştir.
 
 ---
 
