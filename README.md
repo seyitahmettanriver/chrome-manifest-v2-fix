@@ -1,64 +1,71 @@
-# Chrome Manifest V2 Hatası Çözümü - Eski Eklentileri Çalıştırma
+# 🚀 Chrome Manifest V2 Hatası Çözümü - Eski Eklentileri Çalıştırma
 <img width="527" height="221" alt="image" src="https://github.com/user-attachments/assets/2f252959-6325-41a5-ab25-9271a2bae597" />
 
 Chrome'da Manifest V2 eklentilerinin çalışmaması sorununu çözen araçlar. Chrome extension error fix, Manifest V2 deprecated çözümü.
 
-## Sorun
+## ❓ Sorun Nedir?
 
 Google Chrome, Manifest V2 eklentilerinin desteğini kaldırmaya başladı. Bu durum eski eklentilerin çalışmamasına neden oluyor. Chrome extension error, Manifest V2 deprecated hatası, ExtensionManifestV2Availability policy error.
 
-## Çözüm 1: Chrome Flags (En Kolay)
+## ⚡ Çözüm 1: Chrome Flags (En Kolay)
 
 Chrome extension manifest v2 fix için en basit yöntem:
 
-1. Chrome adres çubuğuna `chrome://flags/` yazın
-2. `allow-legacy-mv2-extensions` aratın
-3. **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
-4. **Relaunch (Yeninden Başlat)** butonuna tıklayın
+### 📝 Adım Adım:
+1. 🔍 Chrome adres çubuğuna `chrome://flags/` yazın
+2. 🔎 `allow-legacy-mv2-extensions` aratın
+3. ✅ **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
+4. 🔄 **Relaunch (Yeninden Başlat)** butonuna tıklayın
 
-Bu yöntem Chrome policy fix olarak da bilinir.
+> 💡 Bu yöntem Chrome policy fix olarak da bilinir.
 
 <img width="892" height="369" alt="image" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
 
 
-## Çözüm 2: Otomatik Araçlar
+## 🛠️ Çözüm 2: Otomatik Araçlar
 
 Chrome registry fix ve Chrome Mac policy ayarları için otomatik araçlar:
 
-### Windows
-1. `chrome_windows.bat` dosyasını indirin
-2. Sağ tık → **Yönetici olarak çalıştır**
-3. Chrome'u yeniden başlatın
+### 🪟 Windows
+1. 📥 `chrome_windows.bat` dosyasını indirin
+2. 🖱️ Sağ tık → **Yönetici olarak çalıştır**
+3. 🔄 Chrome'u yeniden başlatın
 
-### Mac
-1. `chrome_mac.sh` dosyasını indirin
-2. Terminal'de çalıştırın:
+### 🍎 Mac
+1. 📥 `chrome_mac.sh` dosyasını indirin
+2. 💻 Terminal'de çalıştırın:
    ```bash
    chmod +x chrome_mac.sh
    ./chrome_mac.sh
    ```
-3. Chrome'u yeniden başlatın
+3. 🔄 Chrome'u yeniden başlatın
 
-## Sık Sorulan Sorular
+## ❓ Sık Sorulan Sorular
 
-**Bu araçlar güvenli mi?** Evet, sadece Chrome'un kendi politikalarını düzenler. Chrome extension error fix güvenlidir.
+### 🔒 **Bu araçlar güvenli mi?**
+Evet, sadece Chrome'un kendi politikalarını düzenler. Chrome extension error fix güvenlidir.
 
-**Chrome güncellemesi sonrası tekrar çalıştırmam gerekir mi?** Evet, güncellemeler ayarları sıfırlayabilir. Chrome policy fix tekrar gerekebilir.
+### 🔄 **Chrome güncellemesi sonrası tekrar çalıştırmam gerekir mi?**
+Evet, güncellemeler ayarları sıfırlayabilir. Chrome policy fix tekrar gerekebilir.
 
-**Bu çözüm kalıcı mı?** Hayır, Chrome'un gelecek sürümlerinde Manifest V2 tamamen kaldırılacak. Manifest V2 deprecated kalıcı olacak.
+### ⏰ **Bu çözüm kalıcı mı?**
+Hayır, Chrome'un gelecek sürümlerinde Manifest V2 tamamen kaldırılacak. Manifest V2 deprecated kalıcı olacak.
 
-**Tüm eklentiler çalışacak mı?** Çoğu Manifest V2 eklentisi çalışacaktır, ancak bazıları hala sorun yaşayabilir.
+### ✅ **Tüm eklentiler çalışacak mı?**
+Çoğu Manifest V2 eklentisi çalışacaktır, ancak bazıları hala sorun yaşayabilir.
 
-## Destek
+## 📞 Destek
 
 Chrome extension error fix için destek:
 
-- **WhatsApp**: +1 249 4772408
-- **E-posta**: support@orderquery.net
+- 📱 **WhatsApp**: +1 249 4772408
+- 📧 **E-posta**: support@orderquery.net
 
 ---
 
-**Geliştirici**: Seyit Ahmet TANRIVER
+## 👨‍💻 Geliştirici
+
+**Seyit Ahmet TANRIVER**
 
 ---
 
