@@ -17,6 +17,9 @@ Chrome extension manifest v2 fix için en basit yöntem:
 
 Bu yöntem Chrome policy fix olarak da bilinir.
 
+<img width="892" height="369" alt="image" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
+
+
 ## Çözüm 2: Otomatik Araçlar
 
 Chrome registry fix ve Chrome Mac policy ayarları için otomatik araçlar:
