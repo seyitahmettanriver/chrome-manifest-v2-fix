@@ -96,7 +96,7 @@ Mac: /Library/Preferences/com.google.Chrome ExtensionManifestV2Availability = 2
 ## 📞 Destek
 
 Sorun yaşarsanız:
-- **WhatsApp**: +1 249 4772408
+- **WhatsApp**: +12494772408
 - **E-posta**: support@orderquery.net
 - **GitHub Issues**: https://github.com/seyitahmettanriver/chrome-manifest-v2-fix/issues
 
