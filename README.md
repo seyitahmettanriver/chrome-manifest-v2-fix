@@ -1,19 +1,25 @@
-# Chrome Manifest V2 Hatası Çözümü
+# Chrome Manifest V2 Hatası Çözümü - Eski Eklentileri Çalıştırma
 
-Chrome'da Manifest V2 eklentilerinin çalışmaması sorununu çözen araçlar.
+Chrome'da Manifest V2 eklentilerinin çalışmaması sorununu çözen araçlar. Chrome extension error fix, Manifest V2 deprecated çözümü.
 
 ## Sorun
 
-Google Chrome, Manifest V2 eklentilerinin desteğini kaldırmaya başladı. Bu durum eski eklentilerin çalışmamasına neden oluyor.
+Google Chrome, Manifest V2 eklentilerinin desteğini kaldırmaya başladı. Bu durum eski eklentilerin çalışmamasına neden oluyor. Chrome extension error, Manifest V2 deprecated hatası, ExtensionManifestV2Availability policy error.
 
 ## Çözüm 1: Chrome Flags (En Kolay)
+
+Chrome extension manifest v2 fix için en basit yöntem:
 
 1. Chrome adres çubuğuna `chrome://flags/` yazın
 2. `allow-legacy-mv2-extensions` aratın
 3. **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
 4. **Relaunch** butonuna tıklayın
 
+Bu yöntem Chrome policy fix olarak da bilinir.
+
 ## Çözüm 2: Otomatik Araçlar
+
+Chrome registry fix ve Chrome Mac policy ayarları için otomatik araçlar:
 
 ### Windows
 1. `chrome_windows.bat` dosyasını indirin
@@ -31,17 +37,25 @@ Google Chrome, Manifest V2 eklentilerinin desteğini kaldırmaya başladı. Bu d
 
 ## Sık Sorulan Sorular
 
-**Bu araçlar güvenli mi?** Evet, sadece Chrome'un kendi politikalarını düzenler.
+**Bu araçlar güvenli mi?** Evet, sadece Chrome'un kendi politikalarını düzenler. Chrome extension error fix güvenlidir.
 
-**Chrome güncellemesi sonrası tekrar çalıştırmam gerekir mi?** Evet, güncellemeler ayarları sıfırlayabilir.
+**Chrome güncellemesi sonrası tekrar çalıştırmam gerekir mi?** Evet, güncellemeler ayarları sıfırlayabilir. Chrome policy fix tekrar gerekebilir.
 
-**Bu çözüm kalıcı mı?** Hayır, Chrome'un gelecek sürümlerinde Manifest V2 tamamen kaldırılacak.
+**Bu çözüm kalıcı mı?** Hayır, Chrome'un gelecek sürümlerinde Manifest V2 tamamen kaldırılacak. Manifest V2 deprecated kalıcı olacak.
+
+**Tüm eklentiler çalışacak mı?** Çoğu Manifest V2 eklentisi çalışacaktır, ancak bazıları hala sorun yaşayabilir.
 
 ## Destek
+
+Chrome extension error fix için destek:
 
 - **WhatsApp**: +1 249 4772408
 - **E-posta**: support@orderquery.net
 
 ---
 
-**Geliştirici**: Seyit Ahmet TANRIVER 
+**Geliştirici**: Seyit Ahmet TANRIVER
+
+---
+
+**Anahtar Kelimeler**: Chrome Manifest V2, ExtensionManifestV2Availability, Chrome eklenti hatası, Manifest V2 deprecated, Chrome extension error, Chrome policy fix, Chrome registry fix, Chrome Mac policy, Chrome Windows registry, Chrome extension manifest v2 fix 
