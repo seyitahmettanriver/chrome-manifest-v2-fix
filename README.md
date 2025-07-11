@@ -14,7 +14,7 @@ Chrome extension manifest v2 fix için en basit yöntem:
 ### 📝 Adım Adım:
 1. 🔍 Chrome adres çubuğuna `chrome://flags/` yazın
 2. 🔎 `allow-legacy-mv2-extensions` aratın
-3. ✅ **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
+3. ✅ **Allow legacy extension manifest versions** seçeneğini **Enabled** yapın
 4. 🔄 **Relaunch (Yeninden Başlat)** butonuna tıklayın
 
 > 💡 Bu yöntem Chrome policy fix olarak da bilinir.
