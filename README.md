@@ -15,13 +15,13 @@ Chrome extension manifest v2 fix için en basit yöntem:
 ### 📝 Adım Adım:
 1. 🔍 Chrome adres çubuğuna `chrome://flags/` yazın
 2. 🔎 `allow-legacy-mv2-extensions` aratın
-3. ✅ **Allow legacy Manifest V2 extensions** seçeneğini **Enabled** yapın
+3. ✅ **Allow legacy extension manifest versions** seçeneğini **Enabled** yapın
 4. 🔄 **Relaunch (Yeninden Başlat)** butonuna tıklayın
 
 > 💡 Bu yöntem Chrome policy fix olarak da bilinir.
 
 ### 📸 Chrome Flags Ekran Görüntüsü:
-<img width="892" height="369" alt="Chrome Flags - Allow Legacy MV2 Extensions" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
+<img width="892" height="369" alt="Chrome Flags - Allow Legacy Extension Manifest Versions" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
 
 ## 🛠️ Çözüm 2: Otomatik Araçlar
 
@@ -48,9 +48,6 @@ Evet, sadece Chrome'un kendi politikalarını düzenler. Chrome extension error 
 
 ### 🔄 **Chrome güncellemesi sonrası tekrar çalıştırmam gerekir mi?**
 Evet, güncellemeler ayarları sıfırlayabilir. Chrome policy fix tekrar gerekebilir.
-
-### ⏰ **Bu çözüm kalıcı mı?**
-Hayır, Chrome'un gelecek sürümlerinde Manifest V2 tamamen kaldırılacak. Manifest V2 deprecated kalıcı olacak.
 
 ### ✅ **Tüm eklentiler çalışacak mı?**
 Çoğu Manifest V2 eklentisi çalışacaktır, ancak bazıları hala sorun yaşayabilir.
