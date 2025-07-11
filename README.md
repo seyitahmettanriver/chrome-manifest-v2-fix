@@ -1,4 +1,5 @@
 # Chrome Manifest V2 Hatası Çözümü - Eski Eklentileri Çalıştırma
+<img width="527" height="221" alt="image" src="https://github.com/user-attachments/assets/2f252959-6325-41a5-ab25-9271a2bae597" />
 
 Chrome'da Manifest V2 eklentilerinin çalışmaması sorununu çözen araçlar. Chrome extension error fix, Manifest V2 deprecated çözümü.
 
