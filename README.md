@@ -21,7 +21,7 @@ Chrome extension manifest v2 fix için en basit yöntem:
 > 💡 Bu yöntem Chrome policy fix olarak da bilinir.
 
 ### 📸 Chrome Flags Ekran Görüntüsü:
-<img width="892" height="369" alt="Chrome Flags - Allow Legacy Extension Manifest Versions" src="https://github.com/user-attachments/assets/db130cd2-ceed-4f29-b1d1-48a36477d494" />
+<img width="1242" height="1042" alt="Chrome Flags - Allow Legacy Extension Manifest Versions" src="https://github.com/user-attachments/assets/7cf6b77c-4044-4651-bceb-2f37a76ff804" />
 
 ## 🛠️ Çözüm 2: Otomatik Araçlar
 
